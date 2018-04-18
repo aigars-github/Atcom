@@ -3,7 +3,7 @@ Unofically modified source code of original Atcom AXE4GN drivers (http://www.atc
 
 Tested with Asterisk v13 and Dahdi v2.11 and Centos 7.
 
-To install (no need to path original Asterisk/Dahdi source code)
+To install (no need to patch original Asterisk/Dahdi source code)
 1) rebuild dahdi-devel package to include mising header files (or download source code)
 2) build axe4gn kernel module
 3) build chan_gcom asterisk module
@@ -11,6 +11,6 @@ To install (no need to path original Asterisk/Dahdi source code)
 
 * No waranty of any kind, use at your own risk.
 
-** The developers have no relation with Digium/Asterisk or Atcom company
+** This work have no relation Digium or Atcom company
 
 
